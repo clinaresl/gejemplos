@@ -9,12 +9,19 @@
 // Description
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+const VERSION = "1.2.8beta"
 
 func main() {
 
 	s := "Hola 👺"
 	fmt.Println(s)
+
+	edad := 52
+	nombre := "Carlos"
 
 }
 
